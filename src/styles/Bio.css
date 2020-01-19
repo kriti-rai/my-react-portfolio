@@ -1,0 +1,49 @@
+
+.bio {
+  display: flex;
+}
+
+.bio-left-col {
+  background-color: #f0544f;
+  float:left;
+  width: 450px;
+  display: inline-block;
+  text-align: right;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+}
+
+.bio-right-col {
+  width: calc(100% - 450px);
+  left: 450px;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+}
+
+.bio-content {
+  text-align: left;
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0.42px;
+  color: #08474e;
+  position: relative;
+  background-color: white;
+  max-width: 800px;
+  width: 90%;
+  margin-top: 300px;
+  padding-left: 70px;
+}
+
+.bio-header {
+  margin-top: 200px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 110px;
+  letter-spacing: 7px;
+  color: white;
+  margin-bottom: 20px;
+  position: relative;
+}
