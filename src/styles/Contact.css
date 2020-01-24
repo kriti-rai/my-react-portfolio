@@ -1,11 +1,11 @@
 .contact {
-  display: block;
+  text-align: center;
 }
 
 .contact-header {
   margin-top: 200px;
   font-family: 'Noto Sans', sans-serif;
-  font-size: 70px;
+  font-size: 95px;
   letter-spacing: 7px;
   color: #3c3c3c;
   margin-bottom: 20px;
@@ -17,31 +17,54 @@
 }
 
 .contact-media {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .contact-form {
+  width: 250px;
+  display: inline-block;
+}
+
+.contact-form input {
   font-size: 18px;
   line-height: 35px;
   letter-spacing: 0.42px;
   color: #08474e;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #f0544f;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #f0544f;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #f0544f;
+}
+
 input[type=text], input[type=textarea] {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #08474e;
+  border-bottom: 1px solid #f0544f;
 }
 
+
 /*ICONS*/
-.fa-envelope, .fa-linkedin-in, .fa-github {
-  color: #097e8b;
-  font-size: 30px;
+.fa-envelope, .fa-linkedin-in{
+  color: #f0544f;
+  font-size: 45px;
   text-decoration: none;
 }
 
-/*WAVES ANIMATION*/
+/* .fa-github {
+  font-size: 42px;
+} */
 
+/*WAVES ANIMATION*/
+/*
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -110,4 +133,4 @@ input[type=text], input[type=textarea] {
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
-}
+} */
