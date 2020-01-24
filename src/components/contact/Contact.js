@@ -1,5 +1,5 @@
 import React from 'react';
-import WaveAnimation from './WaveAnimation';
+// import WaveAnimation from './WaveAnimation';
 import ContactMedia from './ContactMedia';
 
 const Contact = () => {
