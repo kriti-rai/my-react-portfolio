@@ -4,7 +4,11 @@ const OutfitsOnTheGo = () => {
   return (
     <div className='project-card'>
       <div className='overlay'></div>
-        <img className='project-card-img' src={require("./images/homepage.png")} alt-text='Outfits On The Go Cover image'></img>
+      <div className='project-links'>
+        <p><a target='_blank' href='https://github.com/kriti-rai/outfits-on-the-go' className="project-repo">GitHub</a></p>
+        <p><a target='_blank' href='https://www.youtube.com/watch?v=oGe6OHePVyc' className="project-demo">Demo</a></p>
+      </div>
+      <img className='project-card-img' src={require("./images/homepage.png")} alt-text='Outfits On The Go Cover image'></img>
     </div>
   )
 }
