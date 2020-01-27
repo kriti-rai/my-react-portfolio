@@ -1,8 +1,8 @@
 import React from 'react';
-import Trailista from './projects/Trailista';
-import OutfitsOnTheGo from './projects/OutfitsOnTheGo';
-import SwoleNews from './projects/SwoleNews';
-import WanderList from './projects/WanderList';
+import Trailista from './projects/trailista/Trailista';
+import OutfitsOnTheGo from './projects/outfits-on-the-go/OutfitsOnTheGo';
+import SwoleNews from './projects/swole-news/SwoleNews';
+import WanderList from './projects/wanderlist/WanderList';
 
 const Projects = ()=> {
   return (
