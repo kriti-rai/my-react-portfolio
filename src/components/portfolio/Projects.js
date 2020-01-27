@@ -2,7 +2,7 @@ import React from 'react';
 import Trailista from './projects/Trailista';
 import OutfitsOnTheGo from './projects/OutfitsOnTheGo';
 import SwoleNews from './projects/SwoleNews';
-import WanderLust from './projects/WanderLust';
+import WanderList from './projects/WanderList';
 
 const Projects = ()=> {
   return (
@@ -10,7 +10,7 @@ const Projects = ()=> {
       <Trailista />
       <OutfitsOnTheGo />
       <SwoleNews />
-      <WanderLust />
+      <WanderList />
     </div>
   )
 }
