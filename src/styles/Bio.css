@@ -1,10 +1,12 @@
 
 .bio {
   display: flex;
+  overflow: hidden;
+  height: 1%;
 }
 
 .bio-left-col {
-  background-color: #f0544f;
+  background-color: #ffcc00; /*#f0544f;*/
   float:left;
   width: 450px;
   display: inline-block;
@@ -23,23 +25,31 @@
 }
 
 .bio-content {
-  text-align: left;
-  font-family: 'Roboto Slab', serif;
-  text-align: left;
-  font-size: 18px;
-  line-height: 35px;
-  letter-spacing: 0.42px;
-  color: #08474e;
   position: relative;
   background-color: white;
   max-width: 800px;
-  width: 90%;
+  width: 75%;
   margin-top: 300px;
-  padding-left: 70px;
+  padding-left: 220px;
+}
+
+.bio-content p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0.52px;
+  color: #3c3c3c;
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.bio-content p a {
+  text-decoration: underline;
+  color: #08474e;
 }
 
 .bio-header {
-  margin-top: 200px;
+  margin-top: 180px;
   font-family: 'Noto Sans', sans-serif;
   font-size: 110px;
   letter-spacing: 7px;
