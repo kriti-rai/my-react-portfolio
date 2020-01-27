@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Bio = () => {
   return (
@@ -8,10 +9,26 @@ const Bio = () => {
       </div>
       <div className='bio-right-col'>
         <div className='bio-content'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>
+          Kriti is originally from Nepal and currently resides in Oakland, California.
+        </p>
+        <p>
+          She is a Full Stack Developer with a background in JavaScript (React, Redux, etc.), Ruby, Ruby on Rails, CSS/HTML, REST APIs, SQL, GitHub, MVC, responsive web design, object-oriented programming practices, with overall ability to plan and architect projects. She is passionate about developing high-quality products that impact the society in a meaningful way.
+        </p>
+        <p>
+          Kriti was not always a programmer but in late 2018 she decided to teach herself how to code and enrolled in a Web Development bootcamp at  <a href="https://flatironschool.com/" target="blank">Flatiron School</a>. During the program she single-handedly built multiple web applications covering the key concepts and frameworks of web development.
+        </p>
+        <p>
+          Currently, she works as a Software Quality Tester at a medical-device company. Although the role does not entail any programming, she is constantly working on her personal side projects which also includes an <a href="https://github.com/ChiExplores/a-stardust-truce-react" target="blank" styling={{textDecoration:"none"}}>open-source project</a>.
+          Besides just programming, she also enjoys writing about programming-related topics and therefore maintains an active <a href="https://kriti-rai.github.io" target="blank">blog</a>.
+        </p>
+        <p>
+          In her spare time, Kriti is either attempting to beat her last PR at the gym or to strike a new yoga asana. She also loves tending to her plant babies and does this weird thing of talking to them sometimes.
+          One of her many passions is taking photographs and she maintains a non-official photography portfolio <a href="https://kritirai.carbonmade.com" target="blank">here</a>.
+        </p>
+        <p>
+          Thank you for checking out my website. Please feel free to reach out if you would like to <Link to="/contact">connect</Link>.
+        </p>
         </div>
       </div>
     </div>
