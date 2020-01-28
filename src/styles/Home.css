@@ -1,7 +1,39 @@
+.home-content {
+  display: flex;
+  margin: auto;
+  position: relative;
+  max-width: 750px;
+  flex-direction: row;
+  padding-top: 20%;
+}
+
 .home-left-col {
   max-width: 550px;
   display: inline-block;
 }
+
+.header {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 95px;
+  letter-spacing: 7px;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.blurb {
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0.42px;
+  color: #08474e;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+/*//////////////SIDEBAR MENU////////////////*/
 
 .sidebar-menu {
   display: inline-block;
@@ -10,7 +42,7 @@
 }
 
 .sidebar-menu-item {
-  color: #f0544f;
+  color: #f0544f; /*f8b400*/
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
   font-size: 18px;
@@ -21,11 +53,14 @@
   top: 50%;
 }
 
-.home-content {
-  display: flex;
-  margin: auto;
+/*//////////////ICONS////////////////*/
+
+.icon-container {
+  text-align: center;
   position: relative;
-  max-width: 750px;
-  flex-direction: row;
-  padding-top: 20%;
+}
+
+#home-linkedin-icon, #home-github-icon, #home-spotify-icon{
+  font-size: 23px;
+  color: #08474e;
 }
