@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import HeaderName from '.././HeaderName';
 
 const Bio = () => {
   return (
     <div className='bio'>
       <div className='bio-left-col'>
+        <div className='header-name-light'><HeaderName /></div>
         <div className='bio-header'>Bio. </div>
       </div>
       <div className='bio-right-col'>
@@ -27,7 +29,7 @@ const Bio = () => {
           One of her many passions is taking photographs and she maintains a non-official photography portfolio <a href="https://kritirai.carbonmade.com" target="blank">here</a>.
         </p>
         <p>
-          Thank you for checking out my website. Please feel free to reach out if you would like to <Link to="/contact">connect</Link>.
+          Please feel free to reach out if you would like to <Link to="/contact">connect</Link>.
         </p>
         </div>
       </div>
