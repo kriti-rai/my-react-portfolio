@@ -1,66 +1,109 @@
-.home-content {
-  display: flex;
-  margin: auto;
-  position: relative;
-  max-width: 750px;
-  flex-direction: row;
-  padding-top: 20%;
+.home-container {
+  background-image: url('../components/home/images/mtrainier.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: block;
 }
 
-.home-left-col {
-  max-width: 550px;
+.home-content {
+  display:inline-flex;
+  margin: auto;
+  margin-top: 200px;
+  padding: 42px;
+  position: relative;
+  max-width: 65%;
+  height: auto;
+  flex-direction: row;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+.home-right-col {
+  max-width: 450px;
   display: inline-block;
 }
 
 .header {
   font-family: 'Noto Sans', sans-serif;
-  font-size: 95px;
+  font-size: 105px;
   letter-spacing: 7px;
-  color: #3c3c3c;
+  color: white /*#3c3c3c*/;
   margin-bottom: 20px;
   position: relative;
   text-align: left;
+  display: flex;
 }
 
 .blurb {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Quattrocento', serif;;
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 35px;
   letter-spacing: 0.42px;
-  color: #08474e;
-  margin-bottom: 50px;
+  color: white/*#08474e*/;
+  margin-bottom: 20px;
   position: relative;
+  margin-left: 10px;
 }
 
-/*//////////////SIDEBAR MENU////////////////*/
-
-.sidebar-menu {
-  display: inline-block;
-  margin-left: 135px;
-  text-align: left;
+.divider-dark {
+   height:4px;
+   width: 100px;
+   margin-left: 10px;
+   background-color: #f0544f;
+   margin-top: 90px;
+   position: relative;
 }
 
-.sidebar-menu-item {
-  color: #f0544f; /*f8b400*/
-  text-decoration: none;
-  font-family: 'Roboto Slab', serif;
-  font-size: 18px;
-  letter-spacing: 0.5px;
+/*//////////////PROFILE PIC/////////////*/
+
+.profile-pic img {
+  border-radius: 50%;
+  height: 290px;
+  width: 263px;
+  filter:contrast(106%);
+  filter:brightness(103%);
+  padding: 25px;
+}
+
+.profile-pic {
   display: inline-block;
-  position: relative;
-  transform: translateY(-50%);
-  top: 50%;
+  margin-right: 95px;
+  margin-left: 12px;
 }
 
 /*//////////////ICONS////////////////*/
 
-.icon-container {
-  text-align: center;
+.home-icons-container {
+  text-align: left;
   position: relative;
+  margin-left: 11px;
 }
 
-#home-linkedin-icon, #home-github-icon, #home-spotify-icon{
-  font-size: 23px;
-  color: #08474e;
+.home-icons {
+  color: #f0544f;
+  padding-right: 25px;
+  float: left;
+  padding-top: -20px;
+  padding-bottom: 20px;
+  border-radius: 100%;
+  /* box-shadow: 0 0 3px #fff, inset 0 0 10px #fff; */
+  cursor: pointer;
+  font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 0.1rem;
+  text-shadow: 0px 0px 0px #fff;
+    -webkit-transition: .3s;
+		 -moz-transition: .3s;
+			 -o-transition: .3s;
+			-ms-transition: .3s;
+			  	transition: .3s;
+
+}
+
+.home-icons:hover {
+  color: white /*#08474e*/;
+  margin: -15px 3px;
 }
