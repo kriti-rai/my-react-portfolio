@@ -7,7 +7,7 @@ const Bio = () => {
     <div className='bio'>
       <div className='bio-left-col'>
         <div className='header-name-light'><HeaderName /></div>
-        <div className='bio-header'>Bio. </div>
+        <div className='bio-header'>Bio.</div>
       </div>
       <div className='bio-right-col'>
         <div className='bio-content'>
@@ -21,7 +21,7 @@ const Bio = () => {
           Kriti was not always a programmer but in late 2018 she decided to teach herself how to code and enrolled in a Web Development bootcamp at  <a href="https://flatironschool.com/" target="blank">Flatiron School</a>. During the program she single-handedly built multiple web applications covering the key concepts and frameworks of web development.
         </p>
         <p>
-          Currently, she works as a Software Quality Tester at a medical-device company. Although the role does not entail any programming, she is constantly working on her personal side projects which also includes an <a href="https://github.com/ChiExplores/a-stardust-truce-react" target="blank" styling={{textDecoration:"none"}}>open-source project</a>.
+          Currently, she works as a Software Quality Engineer at a medical-device company and is responsible for assessing and validating computerized systems. Although the role does not entail any programming, she is constantly working on her personal side projects which also includes an <a href="https://github.com/ChiExplores/a-stardust-truce-react" target="blank" styling={{textDecoration:"none"}}>open-source project</a>.
           Besides just programming, she also enjoys writing about programming-related topics and therefore maintains an active <a href="https://kriti-rai.github.io" target="blank">blog</a>.
         </p>
         <p>
@@ -31,6 +31,14 @@ const Bio = () => {
         <p>
           Please feel free to reach out if you would like to <Link to="/contact">connect</Link>.
         </p>
+        </div>
+        <div className="footer-link-container">
+          <div className="footer-home-link">
+            <a style={{textDecoration:'none'}} href='/'><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Home</a>
+          </div>
+          <div className="footer-next-link">
+            <a style={{textDecoration:'none'}} href='/portfolio'>Portfolio&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+          </div>
         </div>
       </div>
     </div>
