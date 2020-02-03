@@ -34,6 +34,7 @@ class BurgerMenu extends Component {
             <a target='_blank' href='https://github.com/kriti-rai/' className="menu-item" onClick={() => this.closeMenu()}>GitHub</a>
             <a target='_blank' href='https://www.linkedin.com/in/kriti-rai/' className="menu-item" onClick={() => this.closeMenu()}>Linkedin</a>
             <a href="mailto:kriti.rai@gmail.com" className="menu-item" onClick={() => this.closeMenu()}>Contact</a>
+            <div className='copyright'>&copy; Kriti Rai 2020</div>
         </Menu>
       </div>
     )
