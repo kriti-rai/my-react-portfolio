@@ -11,10 +11,12 @@ const Portfolio = () => {
     <div>
       <div className='portfolio'>
         <div className='portfolio-right-col'>
-          <AboutTrailista />
-          <AboutOutfitsOnTheGo/>
-          <AboutSwoleNews />
-          <AboutWanderList />
+          <div className='about-container'>
+            <AboutTrailista />
+            <AboutOutfitsOnTheGo/>
+            <AboutSwoleNews />
+            <AboutWanderList />
+          </div>
         </div>
         <div className='portfolio-left-col'>
           <div className='header-name-dark'><HeaderName /></div>
