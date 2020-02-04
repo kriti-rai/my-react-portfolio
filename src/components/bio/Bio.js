@@ -29,7 +29,7 @@ const Bio = () => {
           One of her many passions is taking photographs and she maintains a non-official photography portfolio <a href="https://kritirai.carbonmade.com" target="blank">here</a>.
         </p>
         <p>
-          Please feel free to reach out if you would like to <Link to="/contact">connect</Link>.
+          Please feel free to reach out at <a a href="mailto:kriti.rai@gmail.com">kriti.rai@gmail.com</a>.
         </p>
         </div>
         <div className="footer-link-container">
