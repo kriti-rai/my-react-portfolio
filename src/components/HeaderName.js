@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HeaderName = () => {
   return (
     <div>
-      <Link to ='/'>Kriti Rai</Link>
+      <Link to ='/'>KRITI RAI</Link>
     </div>
   )
 };
