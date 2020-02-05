@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderName from '.././HeaderName';
+import ScrollToTop from '../ScrollToTop';
 
 const Life = () => {
   return (
@@ -18,6 +19,7 @@ const Life = () => {
           <img class="life-img" src={require('./images/10.jpg')}></img>
           <img class="life-img" src={require('./images/12.jpg')}></img>
         </div>
+        <div className='scroll-to-top-red'><ScrollToTop /></div>
       </div>
 
   )
