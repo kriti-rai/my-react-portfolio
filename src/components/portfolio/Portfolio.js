@@ -24,11 +24,11 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        <div className='header-name-red'><HeaderName /></div>
         <div className='portfolio-left-col'>
-          <div className='header-name-red'><HeaderName /></div>
           <div className='portfolio-header'>Portfolio.</div>
             <Projects />
-            <div id="portfolio-footer-container" className="scroll-to-top-dark">
+            <div id="portfolio-footer-container" className="scroll-to-top-red">
               <ScrollToTop />
             </div>
         </div>
