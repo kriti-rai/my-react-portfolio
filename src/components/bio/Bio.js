@@ -22,7 +22,7 @@ const Bio = () => {
           </p>
           <p>
             Currently, she works as a Software Quality Engineer at a medical-device company and is responsible for assessing and validating computerized systems. Although the role does not entail too much programming, she is constantly working on her personal side projects which also includes an <a href="https://github.com/ChiExplores/a-stardust-truce-react" target="blank" styling={{textDecoration:"none"}}>open-source project</a>.
-            Besides just programming, she also enjoys writing about programming-related topics and therefore maintains an active <a href="https://kriti-rai.github.io" target="blank">blog</a>.
+            She also enjoys writing about programming-related topics and therefore maintains an active <a href="https://kriti-rai.github.io" target="blank">blog</a>.
           </p>
           <p>
             In her spare time, Kriti is either attempting to beat her last PR at the gym or to strike a new yoga asana. She enjoys hiking but prefers backpacking more. She also loves tending to her plant babies and does this weird thing of talking to them sometimes.
