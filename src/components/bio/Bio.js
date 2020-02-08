@@ -21,19 +21,19 @@ const Bio = () => {
             Kriti was not always a programmer but in late 2018 she decided to teach herself how to code and enrolled in a Web Development bootcamp at  <a href="https://flatironschool.com/" target="blank">Flatiron School</a>. During the program she single-handedly built multiple web applications covering the key concepts and frameworks of web development.
           </p>
           <p>
-            Currently, she works as a Software Quality Engineer at a medical-device company and is responsible for assessing and validating computerized systems. Although the role does not entail any programming, she is constantly working on her personal side projects which also includes an <a href="https://github.com/ChiExplores/a-stardust-truce-react" target="blank" styling={{textDecoration:"none"}}>open-source project</a>.
+            Currently, she works as a Software Quality Engineer at a medical-device company and is responsible for assessing and validating computerized systems. Although the role does not entail too much programming, she is constantly working on her personal side projects which also includes an <a href="https://github.com/ChiExplores/a-stardust-truce-react" target="blank" styling={{textDecoration:"none"}}>open-source project</a>.
             Besides just programming, she also enjoys writing about programming-related topics and therefore maintains an active <a href="https://kriti-rai.github.io" target="blank">blog</a>.
           </p>
           <p>
-            In her spare time, Kriti is either attempting to beat her last PR at the gym or to strike a new yoga asana. She also loves tending to her plant babies and does this weird thing of talking to them sometimes.
-            One of her many passions is taking photographs and she maintains a non-official photography portfolio <a href="https://kritirai.carbonmade.com" target="blank">here</a>.
+            In her spare time, Kriti is either attempting to beat her last PR at the gym or to strike a new yoga asana. She enjoys hiking but prefers backpacking more. She also loves tending to her plant babies and does this weird thing of talking to them sometimes.
+            One of her many passions is taking photographs and she maintains an unofficial photography portfolio <a href="https://kritirai.carbonmade.com" target="blank">here</a>.
           </p>
           <p>
-            Please feel free to reach out at <a a href="mailto:kriti.rai@gmail.com">kriti.rai@gmail.com</a>.
+            Thank you for checking out my page. Feel free to reach out at <a a href="mailto:kriti.rai@gmail.com">kriti.rai@gmail.com</a> if you'd like to connect.
           </p>
         </div>
         <div className="bio-footer-container">
-          <a href='/'><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Home</a> 
+          <a href='/'><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Home</a>
           <a href='/portfolio'>Portfolio&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
