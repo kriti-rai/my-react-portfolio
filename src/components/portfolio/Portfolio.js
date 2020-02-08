@@ -24,7 +24,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className='header-name-red'><HeaderName /></div>
+        <div id='portfolio-header-name' className='header-name-red'><HeaderName /></div>
         <div className='portfolio-left-col'>
           <div className='portfolio-header'>Portfolio.</div>
             <Projects />
