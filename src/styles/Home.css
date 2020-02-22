@@ -1,131 +1,373 @@
-/* .home-container { */
-  /* background-image: url('../components/home/images/mtrainier.jpg'); */
-  /* background-size: cover;
-  min-height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: block; */
-  /* text-align: center; */
-  /* opacity: 0.9; */
-  /* filter: alpha(opacity=20); */
-/* } */
-
+/*//////////////////////////////GENERAL//////////////////////////////*/
 .home {
-  height: 100%;
-  width: 100%;
-  display: block;
-  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
-
-.home-content {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  top: 50%;
-  transform: translate(0, -50%);
-  position: relative;
-  max-width: 65%;
-  height: auto;
-  flex-direction: row;
-  /* background-color: rgba(0,0,0,0.5) !important; */
-}
-
-/*///////////LEFT COLUMN///////////*/
-
-.home-left-col {
-  max-width: 600px; /*512*/
-  display: inline-block;
-  vertical-align: top;
-}
-
-.header {
-  font-family: "Montserrat", serif;
-  font-size: 105px;
-  letter-spacing: 4px;
-  color: #3c3c3c;
-  margin-bottom: 20px;
-  position: relative;
-  text-align: left;
-}
-
-.blurb {
-  font-family: 'Quattrocento', serif;;
-  text-align: left;
-  font-size: 20px;
-  line-height: 40px;
-  letter-spacing: 0.42px;
-  color: #3c3c3c;
-  max-width: 512px;
-  margin-bottom: 20px;
-  margin-left: 7px;
-  position: relative;
-}
-
-.divider-red {  /*DIVIDER*/
-   height: 4px;
-   width: 100px;
-   margin-left: 7px;
-   margin-top: 40px;
-   background-color: #f0544f;
-   position: relative;
-}
-
-/*//////////////RIGHT COL/////////////*/
-
-.home-right-col {
-  max-width: 90px;
-  vertical-align: top;
-  display: inline-block;
-}
-
-.sidebar-menu {
-  margin-left: 70px;
-  margin-top: 40px;
-  position: relative;
-}
-
-/*//////////////PROFILE PIC/////////////*/
-
 .profile-pic img {
   border-radius: 50%;
-  height: 314px;
-  width: 280px;
-  /* height: 400px; square
-  width: 348px; */
-  filter:brightness(104%);
-  padding: 15px 25px 25px 0;
+  filter: brightness(104%);
+  width: 128px;
+  height: 135px;
 }
-
-.profile-pic {
-  display: inline-block;
-  margin-right: 55px;
-  position: relative;
-}
-
-/*//////////////SIDEBAR////////////////*/
-
-
-.sidebar-menu-item {
-  color: #f0544f;
-  padding-right: 25px;
-  float: left;
-  padding-top: -20px;
-  padding-bottom: 20px;
-  border-radius: 100%;
-  cursor: pointer;
-  font-size: 1.2em;
-  -webkit-font-smoothing: antialiased;
-  height: 30px;
-  text-shadow: 0px 0px 0px #fff;
-    -webkit-transition: .3s;
-		 -moz-transition: .3s;
-			 -o-transition: .3s;
-			-ms-transition: .3s;
-			  	transition: .3s;
-
-}
-
-.sidebar-menu-item:hover {
+.blurb {
+  font-family: 'Quattrocento', serif;
   color: #3c3c3c;
-  margin-left: 15px;
+  font-size: 2.3rem;
+}
+.header {
+  font-family: "Montserrat", serif;
+  color: #484848 /*c3c3c*/;
+}
+
+/*////////////////////////////////SMALLER PHONES (iPHONE 5, 6/7//8)///////////////////////////////*/
+@media all and (max-width: 499px) {
+  .home-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .header {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 8%;
+  }
+  .home-left-col {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    top: 9%;
+    margin: 0;
+    padding: 0 15px;
+  }
+  .blurb {
+    max-width: 100%;
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: justify;
+    letter-spacing: 0.3px;
+  }
+  .home-right-col {
+    display: block;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 42%;
+    background-color: #f0544f;
+    height: 22%;
+  }
+  .sidebar-menu {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin-top: 1.25rem;
+    width: 100%;
+  }
+  .sidebar-menu li {
+    display: inline-block;
+  }
+  .sidebar-menu-item i {
+    color: white;
+    font-size: 1.5rem;
+    width: 3.3rem;
+  }
+  .profile-pic img {
+    width: 118px;
+    height: 135px;
+  }
+  .profile-pic {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 8%;
+  }
+  .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase,.sidebar-menu-item i.fas.fa-envelope {
+    display: none;
+  }
+}
+
+/*////////////////////BIGGER PHONES iPHONE X,PIXEL 2, PIXEL 2XL iphone 6/7/8 +/////////////////////////////*/
+@media screen and (max-width: 499px) and (min-height: 668px) {
+  .home-left-col {
+    top: 5%;
+  }
+  .home-right-col {
+    height: 37%;
+  }
+  .blurb {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+  }
+  .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase,.sidebar-menu-item i.fas.fa-envelope {
+    display: none;
+  }
+  .profile-pic img {
+    width: 128px;
+    height: 135px;
+  }
+}
+
+/*//////////////////////////////laptops///////////////////////////////////*/
+
+@media screen and (min-width: 500px) { /* OR (max-width: 1299px)*/
+  .home {
+    position: relative;
+    display: block;
+    overflow: scroll;
+  }
+
+  .home-content {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    max-width: 85%;
+    height: auto;
+  }
+  .home-left-col {
+    width: 925px;
+    display: inline-block;
+    position: relative;
+  }
+  .intro {
+    width: 512px; /*512*/
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    margin: 25px 0;
+  }
+  .header {
+    font-size: 105px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left;
+  }
+  .blurb {
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.42px;
+    max-width: 512px;
+    margin-bottom: 20px;
+    margin-left: 7px;
+    position: relative;
+  }
+  .divider-red {
+     height: 4px;
+     width: 120px;
+     margin-left: 7px;
+     margin-top: 40px;
+     background-color: #f0544f;
+     position: relative;
+  }
+  .home-right-col {
+    max-width: 160px;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+  .sidebar-menu {
+    margin-left: 15px;
+    margin-top: 75px;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+  }
+  .sidebar-menu-item i {
+    height: 2.7rem;
+    color: #f0544f;
+    cursor: pointer;
+    font-size: 1.25rem;
+    margin-right: 10px;
+  }
+  .sidebar-menu a {
+    text-decoration: none;
+  }
+  .menu-label {
+    color: #f0544f;
+    font-size: 1.125rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+  }
+  .sidebar-menu-item:hover .menu-label {
+    visibility: visible;
+    opacity: 1;
+  }
+  .profile-pic img {
+    width: 285px;
+    height: 315px;
+  }
+  .profile-pic {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 45px;
+    margin-right: 85px;
+    height: auto;
+  }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 1299px) {
+  .home-content {
+    margin: 20px auto;
+    padding: 0;
+    height: auto;
+  }
+  .intro {
+    margin: 20px auto;
+  }
+  .home-left-col, .home-right-col {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .home-right-col {
+    height: 60px;
+    margin-top: 35px;
+    display: block;
+  }
+  .header {
+    font-size: 85px;
+    letter-spacing: 3px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .divider-red {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    width: 160px;
+  }
+  .blurb {
+    line-height: 30px;
+    letter-spacing: 0.37px;
+    margin: 30px 0 0;
+    text-align: justify;
+  }
+  .profile-pic {
+    margin: 0 auto 50px;
+    display: block;
+  }
+  /* .profile-pic img {
+    width: 230px;
+    height: 245px;
+  } */
+  .sidebar-menu {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
+  .sidebar-menu li {
+    margin: 0;
+    display: inline;
+  }
+  .menu-label {
+    display: none;
+  }
+  .sidebar-menu i {
+    width: 60px;
+    font-size: 1.8em;
+    margin: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+  }
+  .sidebar-menu i:hover {
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+  }
+  @keyframes bounce {
+  	0%, 100%, 20%, 50%, 80% {
+  		-webkit-transform: translateY(0);
+  		-ms-transform:     translateY(0);
+  		transform:         translateY(0)
+  	}
+  	40% {
+  		-webkit-transform: translateY(-30px);
+  		-ms-transform:     translateY(-30px);
+  		transform:         translateY(-30px)
+  	}
+  	60% {
+  		-webkit-transform: translateY(-15px);
+  		-ms-transform:     translateY(-15px);
+  		transform:         translateY(-15px)
+  	}
+  }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 790px) {
+  home-content {
+    margin: 50px 0 0 0;
+    padding: 0;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .home-left-col, .home-right-col {
+    display: block;
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .header {
+    margin: 0;
+    max-width: 400px;
+    display: block;
+    overflow-x: hidden;
+  }
+  .blurb {
+    font-size: 22px;
+    line-height: 35px;
+    letter-spacing: 0.35px;
+    width: 420px;
+  }
+  .home-right-col {
+    margin: 0;
+    height: 80px;
+  }
+  .divider-red {
+    margin-top: 50px;
+  }
+  .profile-pic img {
+    width: 230px;
+    height: 245px;
+  }
+  .sidebar-menu {
+    height: auto;
+  }
+
+  .sidebar-menu i {
+    width: 55px;
+    padding: 35px 0;;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 790px) and (max-height: 700px) {
+  .home-content {
+    height: 100vh;
+  }
 }
