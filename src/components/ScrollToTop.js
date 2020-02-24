@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 class ScrollToTop extends Component {
@@ -29,7 +29,7 @@ class ScrollToTop extends Component {
   render () {
     return (
       <div className="scroll-to-top">
-        <button debugger onClick={this.scrollToTop}>To the top&nbsp;<i className="fas fa-arrow-up"></i></button>
+        <button onClick={this.scrollToTop}>To the top&nbsp;<i className="fas fa-arrow-up"></i></button>
       </div>
   )}
 }
