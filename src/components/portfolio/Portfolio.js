@@ -28,7 +28,7 @@ const Portfolio = () => {
         <div className='portfolio-left-col'>
           <div className='portfolio-header'>Portfolio.</div>
             <Projects />
-            <div id="portfolio-footer-container" className="scroll-to-top-red">
+            <div id="portfolio-footer-container">
               <ScrollToTop />
             </div>
         </div>
