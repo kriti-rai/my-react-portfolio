@@ -4,7 +4,7 @@ const WanderList = () => {
   return (
     <div className='project-card'>
       <div className='overlay'></div>
-      <div className='project-links'>
+      <div className='project-links-hover'>
         <p><a target='_blank' href='https://github.com/kriti-rai/wander-list' className="project-repo">GitHub</a></p>
         <p><a target='_blank' href='https://www.youtube.com/watch?v=VMWHzbSXqKQ' className="project-demo">Demo</a></p>
       </div>

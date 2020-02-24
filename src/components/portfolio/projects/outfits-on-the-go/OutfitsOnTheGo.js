@@ -4,7 +4,7 @@ const OutfitsOnTheGo = () => {
   return (
     <div className='project-card'>
       <div className='overlay'></div>
-      <div className='project-links'>
+      <div className='project-links-hover'>
         <p><a target='_blank' href='https://github.com/kriti-rai/outfits-on-the-go' className="project-repo">GitHub</a></p>
         <p><a target='_blank' href='https://www.youtube.com/watch?v=oGe6OHePVyc' className="project-demo">Demo</a></p>
       </div>
