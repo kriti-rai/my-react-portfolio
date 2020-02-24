@@ -19,7 +19,7 @@ const Life = () => {
           <img class="life-img" src={require('./images/10.jpg')}></img>
           <img class="life-img" src={require('./images/12.jpg')}></img>
         </div>
-        <div className='scroll-to-top-red'><ScrollToTop /></div>
+        <ScrollToTop />
       </div>
 
   )
