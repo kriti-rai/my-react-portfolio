@@ -48,6 +48,9 @@ body {
   .header-name-light div a, .header-name-red div a  {
     margin-left: 18px;
     margin-top: 18px;
+    height: 20px;
+    position: absolute;
+    display: block;
   }
 }
 @media all and (min-width: 500px) and (max-width: 1299px){
@@ -57,27 +60,18 @@ body {
     height: 20px;
     display: block;
     position: absolute;
-
   }
 }
 
 /*////////FOOTER STUFF/////////*/
-
-.scroll-to-top-red {
-  color: #f0544f;
-}
-
-.scroll-to-top-dark {
-  color: #3c3c3c;
-}
-
-.scroll-to-top a {
+.scroll-to-top button {
+  background: none;
+  border: none;
   position: relative;
   display: block;
-  cursor: pointer;
-  padding-bottom: 40px;
 }
 
-.scroll-to-top a:hover {
+.scroll-to-top button:hover {
   cursor: pointer;
+  outline: none;
 }
