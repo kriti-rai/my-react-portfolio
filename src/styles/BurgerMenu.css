@@ -97,15 +97,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 @media all and (max-width: 499px) {
   .bm-burger-button {
     position: fixed;
-    width: 28px;
-    height: 18px;
+    width: 18px;
+    height: 12px;
     right: 19px;
     top: 19px;
   }
-
-  /* .bm-burger-bars {
-    height:15% !important;
-  } */
 }
 
 @media all and (min-width: 500px) and (max-width: 1299px){
