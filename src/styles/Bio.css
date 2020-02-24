@@ -9,18 +9,22 @@
 
 .bio-left-col {
   background-color: #f0544f; /*#f0544f;*/
-  float:left;
   width: 500px;
-  display: inline-block;
+  position: absolute;
+  padding: 0;
+  left: 0;
+  top: 0;
   text-align: right;
   padding-bottom: 100%;
   margin-bottom: -100%;
+  z-index: -1;
 }
 
 .bio-right-col {
-  /* width: calc(100% - 580px); */
-  width: calc(100% - 450px);
-  left: 450px;
+  width: calc(100% - 500px);
+  left: 500px;
+  right: 0;
+  position: relative;
   display: inline-block;
   vertical-align: top;
   overflow-y: scroll;
@@ -31,7 +35,7 @@
   background-color: white;
   max-width: 800px;
   margin-top: 300px;
-  margin-left: 220px;
+  margin-left: 5% /*220px*/
 }
 
 .bio-content p {
@@ -63,7 +67,7 @@
 
 .bio-footer-container {
   position: relative;
-  width: 1020px;
+  width: 850px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -76,11 +80,57 @@
   display: inline-block;
   text-decoration: none;
   color: #f0544f;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 0.5px;
   vertical-align: top;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 220px;
+  margin-left: 55px;
+}
+
+@media screen and (max-width: 499px) {
+  .bio {
+    display: block;
+    overflow-y: scroll;
+  }
+  .bio-left-col {
+    display: block;
+    position: absolute;
+    height: 250px;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+  }
+  .bio-right-col {
+    display: block;
+    left:0;
+    margin: 250px 0 0;
+    padding: 0 20px;
+    width: 90%;
+  }
+  .bio-content {
+    max-width: 93%;
+    margin: 0;
+  }
+  .bio-content p {
+    font-size: 20px;
+  }
+
+  .bio-header {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    top: 25%;
+  }
+  .bio-footer-container {
+    width: 90%;
+  }
+  .bio-footer-container a {
+    margin-left: 0;
+    font-size: 20px;
+  }
 }
