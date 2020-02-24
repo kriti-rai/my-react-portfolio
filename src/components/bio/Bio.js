@@ -5,8 +5,8 @@ import HeaderName from '.././HeaderName';
 const Bio = () => {
   return (
     <div className='bio'>
+      <div className='header-name-light'><HeaderName /></div>
       <div className='bio-left-col'>
-        <div className='header-name-light'><HeaderName /></div>
         <div className='bio-header'>Bio.</div>
       </div>
       <div className='bio-right-col'>
@@ -29,7 +29,7 @@ const Bio = () => {
             One of her many passions is taking photographs and she maintains an unofficial photography portfolio <a href="https://kritirai.carbonmade.com" target="blank">here</a>.
           </p>
           <p>
-            Thank you for checking out my page. Feel free to reach out at <a a href="mailto:kriti.rai@gmail.com">kriti.rai@gmail.com</a> if you'd like to connect.
+            Feel free to reach out at <a a href="mailto:kriti.rai@gmail.com">kriti.rai@gmail.com</a> if you'd like to connect.
           </p>
         </div>
         <div className="bio-footer-container">
