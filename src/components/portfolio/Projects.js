@@ -6,7 +6,7 @@ import WanderList from './projects/wanderlist/WanderList';
 
 const Projects = ()=> {
   return (
-    <div>
+    <div className='projects-list'>
       <Trailista />
       <OutfitsOnTheGo />
       <SwoleNews />
