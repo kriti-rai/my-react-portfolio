@@ -9,7 +9,7 @@ const SwoleNews = () => {
         <p><a target='_blank' href='https://www.youtube.com/watch?v=BlPmqdfd7JQ' className="project-demo">Demo</a></p>
       </div>
       <div className='phone-project-content'>
-        <div className='phone-project-title'>Trailista</div>
+        <div className='phone-project-title'>Swole News</div>
         <div className='project-links'>
           <p><a target='_blank' href='https://github.com/kriti-rai/swole-news' className="project-repo">GitHub</a></p>
           <p><a target='_blank' href='https://www.youtube.com/watch?v=BlPmqdfd7JQ' className="project-demo">Demo</a></p>
