@@ -20,7 +20,7 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-footer-fwd-container">
             <div className="portfolio-footer-fwd">
-              <a href='/life'>Life&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+              <a href='/life'>Life&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
