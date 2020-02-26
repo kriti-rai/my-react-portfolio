@@ -27,7 +27,7 @@ body {
 .header-name-light div a, .header-name-red div a  {
   position: absolute;
   left: 36px;
-  margin-top: 36px;
+  top: 36px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -45,7 +45,7 @@ body {
 
 @media all and (max-width: 499px) {
   .header-name-light div a, .header-name-red div a  {
-    margin-left: 18px;
+    left: 10px;
     margin-top: 18px;
     height: 20px;
     position: absolute;
@@ -54,11 +54,8 @@ body {
 }
 @media all and (min-width: 500px) and (max-width: 1299px){
   .header-name-light div a, .header-name-red div a  {
-    margin: 18px 0 18px 18px;
-    font-size: 22px;
-    height: 20px;
-    display: block;
-    position: absolute;
+    top: 18px;
+    left: 18px;
   }
 }
 
