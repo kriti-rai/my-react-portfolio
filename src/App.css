@@ -25,9 +25,8 @@ body {
 /*/////////HEADER NAME ////////////*/
 
 .header-name-light div a, .header-name-red div a  {
-  display: inline-block;
-  float: left;
-  margin-left: 50px;
+  position: absolute;
+  left: 36px;
   margin-top: 36px;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
