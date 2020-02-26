@@ -9,8 +9,8 @@ const Home = () => {
     <div className='home'>
       <div className='header-name-red'><HeaderName /></div>
       <div className='home-content'>
+      <div className='profile-pic'><img src={require('./images/profile-pic.jpg')} alt-text="Profile picture"></img></div>
         <div className='home-left-col'>
-        <div className='profile-pic'><img src={require('./images/profile-pic.jpg')} alt-text="Profile picture"></img></div>
           <div className="intro">
             <div className='header'>
               Hello.
