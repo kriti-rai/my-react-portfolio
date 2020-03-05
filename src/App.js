@@ -19,10 +19,10 @@ function App() {
         <BurgerMenu pageWrapId={"page-wrap"} outerContainerId={"outer-container"}/>
         <div id="page-wrap">
           <Switch>
-            <Route exact path='/' component={ Home } />
-            <Route exact path='/bio' component={ Bio } />
-            <Route exact path='/portfolio' component={ Portfolio } />
-            <Route exact path='/life' component={ Life } />
+            <Route exact path='/kritirai' component={ Home } />
+            <Route exact path='/kritirai/bio' component={ Bio } />
+            <Route exact path='/kritirai/portfolio' component={ Portfolio } />
+            <Route exact path='/kritirai/life' component={ Life } />
           </Switch>
         </div>
       </Router>
