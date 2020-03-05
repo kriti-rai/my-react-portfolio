@@ -2,7 +2,7 @@
   "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kriti-rai.github.io",
+  "homepage": "http://kriti-rai.github.io/kritirai",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
