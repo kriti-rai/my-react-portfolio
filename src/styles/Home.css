@@ -22,49 +22,48 @@
 
 /*////////////////////////////////SMALLER PHONES (iPHONE 5, 6/7//8)///////////////////////////////*/
 @media all and (max-width: 499px) {
+  .home {
+    display: block;
+    overflow: scroll;
+  }
   .home-content {
     position: relative;
     width: 100%;
-    height: 100%;
+    overflow-y: scroll;
   }
   .header {
-    font-size: 2.3rem;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 20px;
+    font-size: 80px;
+    letter-spacing: 4px;
   }
   .home-left-col {
-    display: inline-block;
+    display: block;
     position: relative;
     overflow: hidden;
-    top: 9%;
-    margin: 0;
+    top: 20px;
+    margin-bottom: 10px;
     padding: 0 15px;
   }
   .blurb {
     max-width: 100%;
     margin: 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 1.2rem;
     text-align: justify;
     letter-spacing: 0.3px;
   }
   .home-right-col {
-    display: block;
-    position: absolute;
-    margin: 0;
-    width: 100%;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 42%;
     background-color: #f0544f;
-    height: 22%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 45px;
   }
   .sidebar-menu {
     position: relative;
     display: inline-block;
     padding: 0;
-    margin-top: 1.25rem;
     width: 100%;
   }
   .sidebar-menu li {
@@ -72,17 +71,17 @@
   }
   .sidebar-menu-item i {
     color: white;
-    font-size: 1.5rem;
-    width: 3.3rem;
+    font-size: 1.8rem;
+    width: 3.9rem;
   }
   .profile-pic img {
-    width: 118px;
-    height: 135px;
+    width: 205px;
+    height: 220px;
   }
   .profile-pic {
+    position: relative;
     display: block;
-    margin-top: 5%;
-    margin-bottom: 8%;
+    padding-top: 80px;
   }
   .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase,.sidebar-menu-item i.fas.fa-envelope {
     display: none;
@@ -91,22 +90,25 @@
 
 /*////////////////////BIGGER PHONES iPHONE X,PIXEL 2, PIXEL 2XL iphone 6/7/8 +/////////////////////////////*/
 @media screen and (max-width: 499px) and (min-height: 668px) {
-  .home-left-col {
-    top: 5%;
-  }
-  .home-right-col {
-    height: 37%;
+  .header {
+    font-size: 105px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
   }
   .blurb {
-    font-size: 0.85rem;
-    line-height: 1.3rem;
+    font-size: 1rem;
+    line-height: 1.4rem;
   }
   .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase,.sidebar-menu-item i.fas.fa-envelope {
     display: none;
   }
+  .sidebar-menu-item i {
+    font-size: 1.9rem;
+    width: 3.9rem;
+  }
   .profile-pic img {
-    width: 128px;
-    height: 135px;
+    width: 225px;
+    height: 238px;
   }
 }
 

@@ -46,7 +46,7 @@ body {
 @media all and (max-width: 499px) {
   .header-name-light div a, .header-name-red div a  {
     left: 10px;
-    margin-top: 18px;
+    top: 18px;
     height: 20px;
     position: absolute;
     display: block;
