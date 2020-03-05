@@ -33,8 +33,8 @@ const Bio = () => {
           </p>
         </div>
         <div className="bio-footer-container">
-          <a href='/'><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Home</a>
-          <a href='/portfolio'>Portfolio&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
+          <a href='/kritirai'><i class="fas fa-arrow-left"></i>&nbsp;&nbsp;Home</a>
+          <a href='/kritirai/portfolio'>Portfolio&nbsp;&nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
