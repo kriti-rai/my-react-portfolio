@@ -107,14 +107,14 @@
 }
 
 .about-container {
-  padding-top: 365px;
+  padding-top: 313px;
 }
 
 .about-paragraph {
   color: white;
   margin-left: 85px;
   padding-bottom: 125px;
-  line-height: 35px;
+  line-height: 30px;
   letter-spacing: 0.52px;
   font-family: 'Quattrocento', serif;
   font-size: 17px;
@@ -135,7 +135,7 @@
 
 #portfolio-footer-container {
   position: absolute;
-  padding-top: 20px;
+  padding-top: 30px;
   margin-left: 21%;
 }
 #portfolio-footer-container button {
