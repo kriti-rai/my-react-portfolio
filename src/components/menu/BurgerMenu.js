@@ -28,9 +28,9 @@ class BurgerMenu extends Component {
           onStateChange={(state) => this.handleStateChange(state)}
           >
             <Link to ='/kritirai'><span className="menu-item" onClick={() => this.closeMenu()}>Home</span></Link>
-            <Link to ='/kritirai/bio'><span className="menu-item" onClick={() => this.closeMenu()}>Bio</span></Link>
-            <Link to ='/kritirai/portfolio'><span className="menu-item" onClick={() => this.closeMenu()}>Portfolio</span></Link>
-            <Link to ='/kritirai/life'><span className="menu-item" onClick={() => this.closeMenu()}>Life</span></Link>
+            <Link to ='/bio'><span className="menu-item" onClick={() => this.closeMenu()}>Bio</span></Link>
+            <Link to ='/portfolio'><span className="menu-item" onClick={() => this.closeMenu()}>Portfolio</span></Link>
+            <Link to ='/life'><span className="menu-item" onClick={() => this.closeMenu()}>Life</span></Link>
             <a href="mailto:kriti.rai@gmail.com" className="menu-item" onClick={() => this.closeMenu()}>Contact</a>
             <div className='copyright'>&copy; Kriti Rai 2020</div>
         </Menu>

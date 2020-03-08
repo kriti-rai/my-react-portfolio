@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Projects from './Projects';
 import AboutTrailista from './projects/trailista/AboutTrailista';
 import AboutOutfitsOnTheGo from './projects/outfits-on-the-go/AboutOutfitsOnTheGo';
@@ -20,7 +21,7 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-footer-fwd-container">
             <div className="portfolio-footer-fwd">
-              <a href='/kritirai/life'>Life&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></a>
+              <Link to='/life'>Life&nbsp;&nbsp;<i className="fas fa-arrow-right"></i></Link>
             </div>
           </div>
         </div>

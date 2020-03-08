@@ -20,9 +20,9 @@ function App() {
         <div id="page-wrap">
           <Switch>
             <Route exact path='/kritirai' component={ Home } />
-            <Route exact path='/kritirai/bio' component={ Bio } />
-            <Route exact path='/kritirai/portfolio' component={ Portfolio } />
-            <Route exact path='/kritirai/life' component={ Life } />
+            <Route exact path='/bio' component={ Bio } />
+            <Route exact path='/portfolio' component={ Portfolio } />
+            <Route exact path='/life' component={ Life } />
           </Switch>
         </div>
       </Router>
