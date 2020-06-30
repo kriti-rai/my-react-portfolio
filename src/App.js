@@ -5,6 +5,7 @@ import './styles/BurgerMenu.css';
 import './styles/Bio.css';
 import './styles/Life.css';
 import './styles/Portfolio.css';
+import 'react-slideshow-image/dist/styles.css'
 import { Route, Switch, BrowserRouter as Router} from 'react-router-dom';
 import Home from './components/home/Home';
 import Bio from './components/bio/Bio';
