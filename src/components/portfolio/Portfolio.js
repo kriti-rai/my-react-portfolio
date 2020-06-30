@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Projects from './Projects';
 import AboutTrailista from './projects/trailista/AboutTrailista';
+import AboutShopEqual from './projects/shop-equal/AboutShopEqual';
 import AboutOutfitsOnTheGo from './projects/outfits-on-the-go/AboutOutfitsOnTheGo';
 import AboutSwoleNews from './projects/swole-news/AboutSwoleNews';
 import AboutWanderList from './projects/wanderlist/AboutWanderList';
@@ -15,6 +16,7 @@ const Portfolio = () => {
         <div className='portfolio-right-col'>
           <div className='about-container'>
             <AboutTrailista />
+            <AboutShopEqual />
             <AboutOutfitsOnTheGo/>
             <AboutSwoleNews />
             <AboutWanderList />
