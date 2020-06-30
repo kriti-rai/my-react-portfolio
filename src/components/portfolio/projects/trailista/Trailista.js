@@ -1,6 +1,11 @@
 import React from 'react';
+import SlideShow from '../../SlideShow.js'
 
 const Trailista = () => {
+  const fadeImages = [
+    "./projects/trailista/images/cover.jpg", "./projects/trailista/images/register-on-pc.png", "./projects/trailista/images/results-on-pc.png", "./projects/trailista/images/hike.png"
+  ]
+
   return (
     <div className='project-card'>
       <div className='overlay'></div>
@@ -14,7 +19,7 @@ const Trailista = () => {
           <a target='_blank' href='https://github.com/kriti-rai/trailista' className="project-repo">GitHub</a> | <a target='_blank' href='http://trailista.herokuapp.com/' className="project-demo">Demo</a>
         </div>
       </div>
-      <img className='project-card-img' src={require("./images/cover.jpg")} alt-text="Trailista cover image"></img>
+      <SlideShow fadeImages = { fadeImages } />
     </div>
   )
 }
