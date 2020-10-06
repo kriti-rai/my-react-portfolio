@@ -13,7 +13,7 @@ const Home = () => {
         <div className='home-left-col'>
           <div className="intro">
             <div className='header'>
-              Hello.
+              Hello!
             </div>
             <div className='blurb'>
               My name is Kriti Rai. I am a Full Stack Web Developer based in San Francisco Bay Area.
