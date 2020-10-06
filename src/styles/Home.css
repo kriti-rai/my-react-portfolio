@@ -22,20 +22,28 @@
 
 /*////////////////////////////////SMALLER PHONES (iPHONE 5, 6/7//8)///////////////////////////////*/
 @media all and (max-width: 499px) {
+  body {
+    height: 100%;
+  }
   .home {
     display: block;
     overflow: scroll;
+    background-color: #f0544f;
   }
   .home-content {
     position: relative;
     width: 100%;
-    overflow-y: scroll;
+    height: 100%;
+  }
+  .intro {
+    margin-top: 20px;
   }
   .header {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 80px;
-    letter-spacing: 4px;
+    font-size: 70px;
+    letter-spacing: 0px;
+    color: #eeecda;
   }
   .home-left-col {
     display: block;
@@ -46,25 +54,31 @@
     padding: 0 15px;
   }
   .blurb {
-    max-width: 100%;
-    margin: 0;
-    font-size: 0.9rem;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 15px;
     line-height: 1.2rem;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 0.3px;
+    color: #eeecda;
+    font-weight: 600;
   }
   .home-right-col {
-    background-color: #f0544f;
     width: 100%;
-    position: relative;
+    display: block;
+    position: absolute;
     bottom: 0;
-    margin-top: 45px;
+    height: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
   .sidebar-menu {
-    position: relative;
-    display: inline-block;
+    position: absolute;
     padding: 0;
     width: 100%;
+    bottom: 40%;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
   .sidebar-menu li {
     display: inline-block;
@@ -73,42 +87,58 @@
     color: white;
     font-size: 1.8rem;
     width: 3.9rem;
+    display: inline-block;
   }
   .profile-pic img {
-    width: 205px;
-    height: 220px;
+    width: 110px;
+    height: 120px;
   }
   .profile-pic {
     position: relative;
     display: block;
-    padding-top: 80px;
+    padding-top: 26%;
   }
-  .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase,.sidebar-menu-item i.fas.fa-envelope {
+  .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase {
     display: none;
   }
 }
 
 /*////////////////////BIGGER PHONES iPHONE X,PIXEL 2, PIXEL 2XL iphone 6/7/8 +/////////////////////////////*/
 @media screen and (max-width: 499px) and (min-height: 668px) {
+  .home {
+    background-color: #f0544f;
+  }
   .header {
-    font-size: 105px;
-    letter-spacing: 4px;
+    font-size: 100px;
+    letter-spacing: 0px;
     margin-bottom: 20px;
+    color: #eeecda;
   }
   .blurb {
-    font-size: 1rem;
+    margin: 0 auto;
+    width: 95%;
+    font-size: 18px;
     line-height: 1.4rem;
+    color: #eeecda;
+    text-align: center;
+    font-weight: 600;
   }
-  .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase,.sidebar-menu-item i.fas.fa-envelope {
+  .divider-red, .menu-label, .sidebar-menu-item i.fas.fa-clock,.sidebar-menu-item i.fas.fa-id-card,.sidebar-menu-item i.fas.fa-briefcase {
     display: none;
   }
+  .sidebar-menu {
+    bottom: 85%;
+  }
   .sidebar-menu-item i {
-    font-size: 1.9rem;
+    font-size: 30px;
     width: 3.9rem;
   }
+  .profile-pic {
+    padding-top: 33%;
+  }
   .profile-pic img {
-    width: 225px;
-    height: 238px;
+    width: 150px;
+    height: 167px;
   }
 }
 

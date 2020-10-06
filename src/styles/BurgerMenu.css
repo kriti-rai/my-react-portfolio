@@ -101,10 +101,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .bm-burger-button {
     position: fixed;
     width: 18px;
-    height: 12px;
+    height: 13px;
     right: 19px;
     top: 19px;
   }
+  .bm-burger-bars {
+    background: #484848;
+  }
+  
 }
 
 @media all and (min-width: 500px) and (max-width: 1299px){
