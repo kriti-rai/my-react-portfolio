@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a4430d219ba8fa04987bcf1ada939da",
+    "revision": "b54288ae5e0f0e35ef9f33b398ec4fe0",
     "url": "/kritirai/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kritirai/static/css/2.7df321cc.chunk.css"
   },
   {
-    "revision": "d5cb540d04499e9fb468",
-    "url": "/kritirai/static/css/main.faa44fc0.chunk.css"
+    "revision": "4b57690fc3a923cb0155",
+    "url": "/kritirai/static/css/main.e89ab212.chunk.css"
   },
   {
     "revision": "424f8af87bd4bf0d0dbe",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kritirai/static/js/2.533e7b2d.chunk.js.LICENSE"
   },
   {
-    "revision": "d5cb540d04499e9fb468",
-    "url": "/kritirai/static/js/main.13a69cd4.chunk.js"
+    "revision": "4b57690fc3a923cb0155",
+    "url": "/kritirai/static/js/main.e50f265e.chunk.js"
   },
   {
     "revision": "2e830b3454db2002c845",

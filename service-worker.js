@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kritirai/precache-manifest.505451f8f77eda229f21a633f2a2738a.js"
+  "/kritirai/precache-manifest.4f5ea3b4a1c478331029dfcb9dfe08c5.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kritirai/static/css/main.faa44fc0.chunk.css",
-    "main.js": "/kritirai/static/js/main.13a69cd4.chunk.js",
-    "main.js.map": "/kritirai/static/js/main.13a69cd4.chunk.js.map",
+    "main.css": "/kritirai/static/css/main.e89ab212.chunk.css",
+    "main.js": "/kritirai/static/js/main.e50f265e.chunk.js",
+    "main.js.map": "/kritirai/static/js/main.e50f265e.chunk.js.map",
     "runtime-main.js": "/kritirai/static/js/runtime-main.c6aa5766.js",
     "runtime-main.js.map": "/kritirai/static/js/runtime-main.c6aa5766.js.map",
     "static/css/2.7df321cc.chunk.css": "/kritirai/static/css/2.7df321cc.chunk.css",
     "static/js/2.533e7b2d.chunk.js": "/kritirai/static/js/2.533e7b2d.chunk.js",
     "static/js/2.533e7b2d.chunk.js.map": "/kritirai/static/js/2.533e7b2d.chunk.js.map",
     "index.html": "/kritirai/index.html",
-    "precache-manifest.505451f8f77eda229f21a633f2a2738a.js": "/kritirai/precache-manifest.505451f8f77eda229f21a633f2a2738a.js",
+    "precache-manifest.4f5ea3b4a1c478331029dfcb9dfe08c5.js": "/kritirai/precache-manifest.4f5ea3b4a1c478331029dfcb9dfe08c5.js",
     "service-worker.js": "/kritirai/service-worker.js",
     "static/css/2.7df321cc.chunk.css.map": "/kritirai/static/css/2.7df321cc.chunk.css.map",
-    "static/css/main.faa44fc0.chunk.css.map": "/kritirai/static/css/main.faa44fc0.chunk.css.map",
+    "static/css/main.e89ab212.chunk.css.map": "/kritirai/static/css/main.e89ab212.chunk.css.map",
     "static/js/2.533e7b2d.chunk.js.LICENSE": "/kritirai/static/js/2.533e7b2d.chunk.js.LICENSE",
     "static/media/1.jpg": "/kritirai/static/media/1.568447e5.jpg",
     "static/media/10.jpg": "/kritirai/static/media/10.2e232d8e.jpg",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.c6aa5766.js",
     "static/css/2.7df321cc.chunk.css",
     "static/js/2.533e7b2d.chunk.js",
-    "static/css/main.faa44fc0.chunk.css",
-    "static/js/main.13a69cd4.chunk.js"
+    "static/css/main.e89ab212.chunk.css",
+    "static/js/main.e50f265e.chunk.js"
   ]
 }
