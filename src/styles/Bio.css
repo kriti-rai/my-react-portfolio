@@ -117,7 +117,8 @@
     margin: 0;
   }
   .bio-content p {
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 23px;
   }
 
   .bio-header {
